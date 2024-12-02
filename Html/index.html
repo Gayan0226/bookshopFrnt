@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/Css/index.css" />
+    <!-- linked j query File  -->
+     <script src="/script/jquery-3.7.1.js"></script>
+    <script src="/script/index.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <title>Document</title>
   </head>
   <body>
       <div class="headerSection">
         <header>
-          <h1>BookShop Management</h1>
+          <h1 id="shopName"><span id="word-T">T</span>he <span id="word-B">B</span >ook <span id="word-H">H</span>aven </h1>
           <nav class="navbar">
             <ul>
               <li><a href="#Home" class="navLink">home</a></li>
@@ -26,100 +30,66 @@
     <div class="sections">
         <section id="Home">
             <h2>Home</h2>
-            <p>Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Veniam quibusdam id cum quia 
-                sapiente perferendis minima eveniet eligendi eaque ratione laborum soluta ten
-                etur accusantium ipsa cupiditate, illum atque sit quam.
-                Rem omnis eius perferendis eveniet tempore enim incidunt maxime quas,
-                 at perspiciatis, inventore pariatur, consequuntur quis aut harum vitae. Nostrum expedita numquam 
-                 deserunt officia illo quasi vel ab ullam nam!
-                 Vero illum asperiores blanditiis, ullam illo sit nam? Rem, soluta iste! Dolor perferendis
-                  ratione magnam ullam blanditiis accusantium, neque, eveniet aspernatur ut at culpa fuga eaque tempore
-                   consequatur, labore ex?Neque soluta tempora, 
-                   magnam repudiandae non nostrum unde maiores saepe numquam et dolores, porro fuga dicta corrupti consequatur 
-                   delectus quasi officiis voluptates esse error doloribus odio eum ipsam dolore! Corporis?
-                   Cum, quaerat! Provident nihil ipsa quas odio sed, cumque impedit incidunt placeat eveniet consequuntur dolore magni,
-                    beatae, nemo at ea animi ipsam eaque! Beatae quo soluta totam aperiam. Fugiat, magni.</p>
-        </section>
-        <section id="Book Store">
-          <h2>Book</h2>
-          <p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quo accusantium voluptatibus? Ea animi quam, rem, enim impedit quibusdam officiis expedita illo ipsam ducimus eaque dolorem debitis cumque laborum magni.
-          Hic ex quos amet repellat qui deserunt perferendis vero a, corrupti nesciunt possimus ut eaque aperiam, fugiat similique. Maxime, hic velit sit eos quos nostrum nulla nobis officia quisquam iusto.
-          Obcaecati, ullam voluptatum quos cumque alias doloribus. Quam corporis vel consequuntur repellat dicta, nemo odio accusamus eaque voluptate quo labore nesciunt quidem expedita voluptatibus porro laboriosam sint aperiam reprehenderit numquam.
-          Ducimus, suscipit temporibus fuga deserunt vel error inventore recusandae tenetur impedit autem odit alias veniam, iste dolor enim expedita aperiam placeat ea ipsa dolore excepturi! Dolores vel facere non quibusdam.
-          Id odit dolores aliquid repellendus, inventore tempora dolor perspiciatis voluptas natus laboriosam nisi accusantium soluta aut magnam facilis expedita autem minus praesentium ducimus consequatur. Molestias cum dolorum velit illum cupiditate.
-          Quis nam quos quibusdam modi nisi! Accusamus temporibus at deserunt, nihil consequatur ipsam sed? Optio, exercitationem qui. Quaerat hic numquam sint velit, aperiam unde nobis suscipit provident asperiores. Repellat, ducimus?
-          Minima non iste labore a rem? Quaerat debitis quia exercitationem nostrum fugiat magnam sequi distinctio cum enim laboriosam! Iste excepturi possimus repellendus eaque ducimus vitae quae magni doloremque ratione porro?
-          Repellendus eligendi inventore tenetur reiciendis nesciunt corporis explicabo nobis aspernatur? Doloremque ipsam quas, deleniti eaque tenetur porro aspernatur illo blanditiis officiis sit eligendi, modi, nisi corrupti atque ullam natus omnis?
-          Iure libero impedit porro, nihil maxime quod numquam possimus vel neque commodi mollitia reiciendis perferendis tempora quidem. Totam aspernatur perferendis quis, id, ea autem tenetur hic ipsam fuga pariatur obcaecati.
-          Suscipit at praesentium veritatis nemo deserunt officia vitae dolorum et quod modi voluptatibus distinctio, quam odio explicabo tempora consectetur ab soluta quia. Doloribus eum atque quaerat delectus repellat maxime ipsa?
-          Velit sed doloribus tenetur cum voluptatum iste, dolores itaque enim quasi. Ex repudiandae eos magnam quis perferendis ducimus fugit laborum nemo quasi? Itaque ratione velit blanditiis! In ab nesciunt ut.
-          Perspiciatis exercitationem facere quas, numquam dolorum voluptatibus qui natus quam maxime rerum quibusdam quidem eveniet voluptate commodi nulla suscipit neque modi. Sit repellat veritatis doloribus nemo tempora, explicabo quam deleniti?ipsum dolor sit amet consectetur adipisicing elit. Porro provident sit adipisci itaque veritatis ea excepturi, 
-              quaerat quis quos ab doloremque consequuntur esse culpa temporibus sequi corrupti sint, exercitationem alias?</p>
-      </section>
-        <section id="About Us">
+            <p>
+              *The Book Haven* is not just a bookstore; it's a sanctuary for book lovers. Whether you're searching for the latest bestseller or a timeless classic, our store offers a curated collection of books from every genre imaginable. Here, you can lose yourself in stories, learn something new, or find the perfect gift for a fellow book lover. Come and experience the charm of *The Book Haven*, where every book is a gateway to new adventures.
+            </p>
+       </section>
+        <section id="Book">
+
+          <h2>Book Catagory</h2>
+           <div class="catagory">
+            <ul>
+              <li id="horror">Horror<img src="/img/a.jpg" title="the Horror Book For 18+ peoples " alt=""></li>
+              <li id="novel">Novels <img src="/img/b.jpg" alt="" title="Novels For Romantic lovers "></li>
+              <li id="children">Children <img src="/img/c.jpg" alt="" title="for Children "></li>
+              <li id="fantacy">Fantacy <img src="/img/d.jpg" alt="" title="For All People "></li>
+            </ul>
+           </div>
+          <p>
+            Explore an extensive collection of books that cater to every taste and preference. Whether you're into fiction, non-fiction, or children's literature, we have something special for you. From classic novels to the latest bestsellers, our selection is ever-evolving and full of exciting new finds.
+          </p>
+          <ul>
+            <li><strong>Fiction:</strong> Dive into our collection of captivating novels, including timeless classics and the newest releases from popular authors.</li>
+            <li><strong>Non-Fiction:</strong> Whether you’re interested in biographies, self-help, history, or art, our non-fiction section is designed to broaden your knowledge and enrich your mind.</li>
+            <li><strong>Children’s Books:</strong> From bedtime stories to educational books, our children’s section is filled with books that inspire and entertain young readers.</li>
+            <li><strong>Special Collections:</strong> Explore rare finds, signed editions, and exclusive releases available only at *The Book Haven*.</li>
+          </ul>
+            </section>
+        <section id="About">
             <h2>About</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ad amet ut omnis magnam! Nam repudiandae officiis repellat aliquam temporibus ipsam placeat cumque fugit ex aut! Sequi, nihil nemo? Similique.
-            Numquam nisi unde aspernatur necessitatibus minima rem magnam quisquam blanditiis placeat impedit aut nesciunt quaerat temporibus ea soluta, totam deleniti ex porro. Nemo consectetur temporibus ut? Unde incidunt fuga dolores?
-            Dolorum quis iure vel quas inventore qui illo, esse provident. Repellat placeat voluptate veritatis corrupti sit vel incidunt illum repudiandae dolores consectetur molestias quas minima facere facilis, mollitia ad veniam.
-            Officia, consectetur libero iure unde, eum nisi ipsam reiciendis dolores fugiat rem odit atque, earum molestias error sapiente! Nam ullam ratione sequi ex est facere iure nulla, soluta alias modi.
-            Excepturi neque similique officia deleniti, omnis in, quibusdam ad consequuntur amet quae tenetur recusandae voluptatibus expedita, minima reiciendis dignissimos ipsum ducimus sunt laboriosam itaque tempore enim. Numquam aliquid cumque iste.
-            Similique, nostrum, vero esse illo suscipit numquam ex error a eaque est accusamus ipsum! Reiciendis eius fugit commodi doloremque nihil non, rem totam beatae eaque exercitationem similique quae sapiente quasi.
-            Ex omnis debitis corporis doloribus aliquam? Harum, quo. Illo, atque libero magni dolor nemo quam odit incidunt nulla nobis obcaecati dignissimos ipsam! Placeat debitis quas iusto dolorem blanditiis minus amet.
-            Quaerat reprehenderit pariatur commodi enim culpa error consequuntur eligendi eos nesciunt est nulla voluptatem repudiandae sequi vitae, vero nihil, qui velit harum recusandae illum accusamus. Saepe quia doloribus impedit animi.
-            Laudantium, adipisci incidunt fugiat reprehenderit tempore impedit explicabo ullam pariatur minus id temporibus. Nostrum quos rem eos laboriosam magni, atque officiis totam vel minus. Architecto temporibus sequi necessitatibus commodi at.
-            Voluptatum molestiae delectus rem. Nostrum, sapiente, voluptates aspernatur sit commodi ut corporis consequatur cum, exercitationem a omnis distinctio voluptatibus! Eaque tenetur eligendi architecto aliquid facere quae illum quam? Cupiditate, doloribus.
-            Repudiandae commodi nam temporibus iste, aliquid repellat explicabo blanditiis. Laborum, ab corporis exercitationem itaque pariatur eveniet repellat inventore sed, earum cum commodi adipisci ipsam nobis quaerat reiciendis! Totam, pariatur similique!
-            Alias vel doloribus reprehenderit ea, quae adipisci earum corrupti quibusdam recusandae cupiditate officiis id exercitationem voluptatibus a ullam. Maiores quos nulla accusantium provident nam earum accusamus sunt sed. Enim, accusantium. ipsum dolor sit amet consectetur adipisicing elit. Porro provident sit adipisci itaque veritatis ea excepturi, 
-                quaerat quis quos ab doloremque consequuntur esse culpa temporibus sequi corrupti sint, exercitationem alias?</p>
-        </section>
-        <section id="How To Contact Us">
-            <h2>Contact</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio architecto quia possimus in, itaque quas nisi dolorum voluptatibus dolore reprehenderit laboriosam repellat sint! Perspiciatis mollitia cupiditate in fuga cum animi.
-            Officiis soluta esse quos reprehenderit ut alias. Atque praesentium et maxime unde qui velit aperiam minus cupiditate, voluptatibus in veritatis sed hic iste perspiciatis enim corrupti tenetur? Possimus, enim numquam?
-            Repudiandae ab doloribus ea quos sequi inventore corporis dolorum enim tempore expedita eaque reiciendis aperiam tempora deserunt, officiis nulla sapiente. Explicabo, sint facere ea animi temporibus excepturi nisi laborum vel!
-            Eius cupiditate cumque doloremque optio quasi dolores ipsum minus possimus suscipit laudantium ab dicta cum rerum, necessitatibus assumenda! Temporibus ab, praesentium in ipsa magnam illum doloribus accusantium saepe velit aliquam.
-            Ducimus ipsa fugit reprehenderit, veritatis magnam eveniet beatae et recusandae numquam consectetur possimus doloribus sequi placeat eos ex omnis voluptate, animi molestias? Voluptas, excepturi. Fugiat, magnam! Similique sequi id ipsa!
-            Sunt vero officia cumque a sed vel, iure velit, quasi accusantium, sapiente numquam quas suscipit assumenda natus nulla quos veniam corrupti aliquid hic qui dolorem. Fugiat reprehenderit adipisci consectetur similique!
-            Libero pariatur, molestias reiciendis cumque consequatur tempora enim ducimus provident ad perspiciatis perferendis tenetur delectus quae debitis dolor illo aspernatur repellat nisi. Numquam natus dignissimos odit vitae temporibus impedit enim.
-            Accusamus blanditiis delectus tempore illo esse doloremque odio quibusdam eveniet aliquid explicabo! Eius corrupti nobis porro ipsum eveniet optio similique adipisci esse dignissimos repellat enim non, aperiam consectetur voluptates velit?
-            Harum vero totam deserunt magni temporibus error laudantium neque dolor dolorum animi recusandae officiis corrupti dignissimos ratione voluptate quo ipsam quisquam et mollitia odit nisi, debitis similique. Reprehenderit, vel doloribus!
-            Minus modi corrupti enim asperiores perferendis non nesciunt. Minima voluptate quas soluta saepe at recusandae sunt earum tenetur, odio illo natus, incidunt laborum omnis cupiditate veniam maiores, quam impedit fugit!
-            Iure, voluptates eligendi sed voluptatibus asperiores impedit quos magni vitae facere laboriosam nisi cumque, fugiat eum molestias id blanditiis! Doloribus sunt eligendi nisi fuga, impedit saepe eum! Deserunt, reiciendis? Vel.
-            Enim velit quaerat delectus aspernatur distinctio reprehenderit accusantium, dolorem corrupti. Totam quis vero eos voluptates. Veritatis eligendi optio, sed, porro impedit voluptatibus aperiam saepe officia sapiente alias aspernatur, eum neque. ipsum dolor sit amet, consectetur adipisicing elit. Repellat
-                 ex, pariatur tenetur expedita, nesciunt id, iusto vitae perferendis fugiat sint neque laudantium
-                  quisquam veritatis itaque nihil aspernatur quam odio mollitia?</p>
-        </section>
+            <p>
+              At *The Book Haven*, we are passionate about creating a space where literature thrives. Our mission is to provide a diverse and enriching selection of books that cater to all types of readers—from avid bookworms to casual readers. We also aim to offer a personalized and exceptional shopping experience by providing expert recommendations and hosting events that foster a sense of community and belonging among book lovers.
+            </p>
+              </section>
+       
         <section id="Service">
             <h2>Our Services</h2>
-            <p><span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, odio ad commodi at illum incidunt vel esse nisi exercitationem optio hic, obcaecati unde facere ab. Nobis eos praesentium voluptas numquam?
-            Obcaecati, nam excepturi eos harum ratione sed. Ullam perferendis, aut quia laborum quasi voluptates facere maiores autem commodi nostrum atque, quisquam optio ab cupiditate quae sit, iure placeat minus qui?
-            Dicta non sint, similique fugiat aut, fugit provident iure, perspiciatis dolore atque neque dolores ipsa architecto debitis accusamus velit illum eveniet. Fugit expedita temporibus, molestiae neque impedit voluptatibus magni deserunt?
-            Adipisci assumenda molestias fugit obcaecati? Porro sunt quas earum dolorum repudiandae odio enim doloribus, modi a architecto, totam recusandae esse? At, dicta obcaecati ratione et voluptatum laudantium magnam nesciunt aliquid.
-            Deleniti numquam molestias accusantium illum, laborum ullam, sed quam nam quidem doloribus quia voluptatibus repudiandae aperiam sapiente beatae error, mollitia minus reiciendis natus ea dicta! Provident perspiciatis ad ratione harum!
-            Minus similique illo laboriosam blanditiis excepturi laborum nam alias beatae vitae non magnam totam eligendi, praesentium perspiciatis eius quasi dolorem ducimus libero quae dolores, iure nihil possimus. Dolorem, placeat minus.
-            Sint iure neque voluptates quaerat dolor maiores commodi ratione facere est natus! Iure laudantium tempora, quod consequatur omnis, similique nostrum repudiandae provident est maiores porro hic veniam placeat! Autem, animi!
-            Voluptatum aliquam eaque quibusdam natus? Quaerat, reprehenderit dolore? Provident amet molestiae commodi omnis iure, unde beatae totam rem numquam est vitae quia odit atque esse veniam? Aut quae illum iste.
-            Repudiandae aliquam doloribus nemo ipsa accusantium totam. Error obcaecati dignissimos expedita dolorem nostrum ipsam odio, commodi amet adipisci consequuntur quisquam, delectus odit ad quae fugiat non corrupti voluptatem blanditiis nulla!
-            Dolorum eius, corrupti, repudiandae optio sed quasi vel ad nemo laboriosam sint quisquam! Quisquam fuga beatae, officia sed consequatur et quo odio id saepe necessitatibus, ullam, earum laudantium dolorum voluptas!
-            Quod tenetur accusantium, dignissimos sit quia doloribus provident, debitis autem nesciunt, repudiandae labore libero quam quae iure similique molestiae. Ex, accusamus dignissimos atque ipsam et nostrum. Nostrum quaerat numquam velit?
-            Quasi sunt nihil cumque, delectus, doloremque tempora magnam incidunt cupiditate quibusdam numquam, molestias adipisci. Unde corporis, debitis quasi corrupti fugiat natus esse doloribus ipsa neque? Nisi id dolorem modi velit!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta eos at, obcaecati distinctio itaque exercitationem tempore doloribus nam tempora placeat, numquam, corporis veniam nemo fuga laborum! Qui inventore vitae rerum!
-            Animi temporibus deleniti aspernatur, est, cum tempora sed aliquid accusamus laborum veniam provident porro officia eos totam, fugiat minima! Recusandae voluptates qui inventore, accusamus voluptatibus unde. Aut atque nulla ipsum.
-            Id, veniam provident error voluptas odio, dignissimos minus suscipit blanditiis totam reprehenderit voluptate recusandae reiciendis? Delectus inventore ad asperiores earum minus, architecto rerum, et doloremque qui ratione fugiat praesentium dignissimos.
-            Voluptatum ad totam sunt nobis voluptatibus vitae quidem dolor nesciunt quia, facilis reprehenderit tempora esse iusto pariatur debitis maxime distinctio quae eveniet optio quam sit beatae iste. Consequuntur, error assumenda.
-            Eos magnam, non id voluptate incidunt quibusdam! Maiores, placeat? Provident, exercitationem harum neque consequatur illo deserunt quasi. Quas consequatur tenetur quae debitis incidunt. Nisi nihil quis voluptas eaque odio aut.
-            Sequi ut sapiente unde, possimus at nisi vel placeat praesentium mollitia aut dolore nulla molestiae nemo distinctio! Culpa, quis aperiam ut voluptatum quaerat, libero natus eum repudiandae, sit adipisci error.
-            Doloribus maxime adipisci dicta deleniti odit aliquam velit voluptatibus nihil reprehenderit! Reprehenderit dolorem doloremque inventore in vitae accusantium maxime magnam! Vitae unde praesentium magni quo, at perferendis corporis ab eos!
-            Maxime deserunt eos suscipit doloribus dignissimos ad, neque debitis, consectetur deleniti, culpa quis provident atque minima enim quaerat quae dolorem unde eveniet itaque. Voluptatibus illum eaque inventore corporis? Deleniti, ab!
-            Minima minus necessitatibus dolorem accusantium commodi, ratione et ipsa ea mollitia earum, cumque nisi quo, quod modi excepturi quisquam? Facilis, ea ipsum? Rem quas earum voluptates molestias ut vero nostrum?
-            Dolorem consectetur voluptatum assumenda mollitia minus soluta corrupti excepturi, qui delectus facere maiores reiciendis voluptates voluptatibus quaerat, dignissimos ab beatae iste doloribus autem, voluptatem animi atque debitis. Nulla, perferendis ipsum.
-            Dignissimos expedita quibusdam suscipit eveniet aliquam. Tempore corrupti ratione eligendi commodi soluta illo odit minima accusantium totam optio, delectus provident iusto molestias. Esse quae atque rem amet animi laborum facere!
-            Reprehenderit ut vitae culpa qui aliquam ad, molestiae, aliquid dignissimos quaerat quo, labore quia nesciunt optio voluptatem deleniti consequatur. Quas tenetur nulla sit perspiciatis vero magnam, optio maiores? Veniam, aliquid.
+            <div class="services">
+              <ul class="un-list">
+                <li>Book Recommendations <p> Personalized book recommendations based on reading preferences and past purchases. Our expert staff is available to suggest the perfect book for any occasion, whether it's a gift, a new read, or something special for a reading challenge.</p></li>
+                <li>Book Reservations <p>Reserve upcoming releases or popular books that are out of stock. We offer a convenient reservation service, ensuring you won’t miss the latest bestsellers or special editions.</p></li>
+                <li>Book Pre-Orders <p>Get your hands on the latest books before anyone else! Pre-order new releases and exclusive editions directly from us to guarantee your copy.</p></li>
+                <li>Events & Book Signings <p>We host regular book events, including author signings, readings, and book launches. Stay updated on our events calendar to participate in exclusive in-store experiences.</p></li>
+              </ul>
+            </div>
+            
+        </section>
+          <section id="Contact">
+            <h2> How To Contact Us</h2>
+            <p>
+              We love hearing from our customers! If you have any questions, feedback, or inquiries, please feel free to reach out to us through the following channels:
+            </p>
+            <ul>
+              <li>Email: info@thebookhaven.com</li>
+              <li>Phone: (123) 456-7890</li>
+              <li>Location: 123 Book St, Booktown, BK 12345</li>
+            </ul>
+        </section>
     </div>
     <div class="fotter">
         <footer>
-            <p>&copy; 2024 Book Shop Management</p>
-            <p>Contact us: info@bookshop.com</p>
+            <p>&copy; 2024 The Book Haven</p>
+            <p>Contact us: b.haven@bookshop.com</p>
         </footer>
     </div>
   </div>
