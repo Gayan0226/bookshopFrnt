@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+  // for Saved Author Details
   window.saveDetails = function () {
     let firstName = document.getElementById("firstName").value;
     let lastName = document.getElementById("lastName").value;
@@ -14,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
         firstName: firstName,
         lastName: lastName,
         email: email,
-        contact: [{ contact: contact }],
+        contact: [{contact:contact }],
       }),
       success:function(data){
         alert("saved!")
@@ -26,5 +27,6 @@ document.addEventListener("DOMContentLoaded", function () {
     })
   };
 
+  
   function getData() {}
 });
