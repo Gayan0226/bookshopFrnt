@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 1rem;
+  padding: 0.6rem;
+}
+.register {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+.register label{
+    margin: 1rem;
+    padding: 0.7rem;
+    font-size: 1.2rem;
+}
+.register input{
+    width:25%;
+    height: 30px;
+}
