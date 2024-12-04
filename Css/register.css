@@ -68,7 +68,7 @@ body {
   width: 325px;
   margin-top: 1rem;
   cursor: pointer;
-  height: 50px;
+  height: 40px;
 }
 /* .button-details {
   display: flex;
@@ -91,6 +91,7 @@ body {
   font-size: 0.8rem;
   border-radius: 10px;
   overflow: hidden;
+  border: 1px solid var(--very-smooth);
 }
 input::placeholder {
   color: var(--very-smooth);
