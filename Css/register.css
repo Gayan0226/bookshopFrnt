@@ -13,18 +13,17 @@ body {
   /* display: flex;
   flex-direction: column;
   align-items: center; */
- 
+
   background-image: url("/img/n.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.form-container-hero{
+.form-container-hero {
   margin-top: 1.3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
- 
 }
 .logout-button {
   align-items: left;
@@ -35,9 +34,9 @@ body {
   color: var(--very-smooth);
   cursor: pointer;
 }
-.logout-button a{
+.logout-button a {
   text-decoration: none;
- color:var(--very-smooth);
+  color: var(--very-smooth);
 }
 .logout-button i:hover {
   transform: scale(1.4);

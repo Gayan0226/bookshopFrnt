@@ -119,12 +119,11 @@ section p {
 }
 /* Home Sections */
 #Home {
-  
 }
 .body-home {
   margin: 1rem;
-  background-color:var(--normal);
-  color:black;
+  background-color: var(--normal);
+  color: black;
   padding: 1rem;
   border-radius: 15px;
 }
@@ -173,7 +172,7 @@ section p {
   width: 100%;
   overflow: hidden;
 }
-.services ul  p:hover {
+.services ul p:hover {
   border-left: 1.6rem solid black;
   padding: 1rem;
   transform: scale(1);
@@ -266,10 +265,9 @@ section p {
   padding: 0.4rem;
   border-radius: 50%;
 }
-#Contact ul li i:hover{
+#Contact ul li i:hover {
   transform: scale(1.4);
   padding: 0.3rem;
- 
 }
 #Contact ul li span {
   font-size: 0.7rem;
