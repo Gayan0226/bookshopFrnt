@@ -6,21 +6,31 @@
     <script src="/script/register.js"></script>
     <script src="/script/jquery-3.7.1.js"></script>
     <link rel="stylesheet" href="/Css/register.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <title>Document</title>
   </head>
   <body>
-    <div class="title">
-      <h2>Register Form</h2>
+    <div class="logout-button">
+     <a href="/Html/index.html"><i class="fa-solid fa-chevron-left"></i></a>
     </div>
-    <div class="register">
-      <input type="text" id="firstName">
-      <input type="text" id="lastName" />
-      <input type="email" id="email" />
-      <input type="number" id="contact" />
-    </div>
-    <div class="buttonRegister">
-        <button id="save" onclick="saveDetails()">save</button>
-        <button id="detaget" onclick="getData()">retrieved</button>
+    <div class="form-container-hero">
+      <div class="form-container">
+        <div><h2>Register</h2></div>
+        <div class="form-details">
+          <input type="text" id="firstName" placeholder="First Name" />
+          <input type="text" id="lastName" placeholder="Last Name" />
+          <input type="email" id="email" placeholder="Email" />
+          <input type="tel" id="contact" placeholder="Contact" />
+          <input type="text" id="userName" placeholder="User Name" />
+          <input type="password" id="Password" placeholder="Password" />
+          <input type="password" id="confirm" placeholder="Re-type Password" />
+        </div>
+        <div class="lisence"><P><input type="checkbox" id="check-box"> <span>aggred the Lisence and  accept the agreement</span> </P></div>
+        <div class="button-details">
+          <button>Register</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
