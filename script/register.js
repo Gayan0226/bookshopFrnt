@@ -15,18 +15,14 @@ document.addEventListener("DOMContentLoaded", function () {
         firstName: firstName,
         lastName: lastName,
         email: email,
-        contact: [{contact:contact }],
+        contact: [{ contact: contact }],
       }),
-      success:function(data){
-        alert("saved!")
+      success: function (data) {
+        alert("saved!");
       },
-      error:function(xhr,exception){
-        alert("Error")
-      }
-      
-    })
+      error: function (xhr, exception) {
+        alert("Error");
+      },
+    });
   };
-
-  
-  function getData() {}
 });
