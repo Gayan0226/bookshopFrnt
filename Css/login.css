@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --dark: #634217;
+  --normal: #efc070;
+  --smooth: #fff5b6;
+  --very-smooth: #eeeeee;
+}
+body {
+  margin: 2rem;
+  background-image: url("/img/n.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  box-sizing: border-box;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#boder {
+  border: 2px solid white;
+  padding: 1rem;
+  border-radius: 20px;
+}
+#boder h2 {
+  color: var(--normal);
+  margin-bottom: 1.2rem;
+  font-size: 2rem;
+  text-align: left;
+}
+.topic {
+  box-sizing: border-box;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.topic .details {
+  margin: 0.4rem;
+  height: 30px;
+  border-radius: 8px;
+  padding: 0.3rem;
+  width: 315px;
+  font-weight: 600;
+  color: var(--very-smooth);
+  background-color: transparent;
+  border: 1px solid var(--very-smooth);
+}
+#log-button {
+  margin-top: 1rem;
+  padding: 0.4rem;
+  width: 325px;
+  height: 40px;
+  margin-left: 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: large;
+  font-weight: bolder;
+}
+#log-button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.check-button {
+  align-items: left;
+}
+.check-button a {
+  color: var(--smooth);
+  margin-left: 1rem;
+  font-weight: 700;
+}
+#check-box {
+  margin: 0.5rem;
+  align-items: left;
+  cursor: pointer;
+}
+.check-button a {
+  text-transform: lowercase;
+}
+span {
+  margin-left: 0.3rem;
+  color: var(--very-smooth);
+  font-size: 1rem;
+}
+input::placeholder {
+  color: var(--very-smooth);
+  font-weight: 500;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+}
+input:focus {
+  margin-left: 0.2rem;
+  transform: scale(1.1);
+  border: 2px solid var(--very-smooth);
+}
+.logout-button a {
+  text-decoration: none;
+  color: var(--very-smooth);
+}
+.logout-button i:hover {
+  transform: scale(1.2);
+}
