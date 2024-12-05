@@ -83,7 +83,7 @@ nav ul li a {
 }
 .navbar li:hover {
   cursor: pointer;
-  border-bottom: 0.5rem solid var(--smooth);
+  border-bottom: 0.1rem solid var(--smooth);
   transform: scale(1.2);
 }
 
