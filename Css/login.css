@@ -99,9 +99,14 @@ input:focus {
   border: 2px solid var(--very-smooth);
 }
 .logout-button a {
-  text-decoration: none;
+  align-items: left;
+  margin-left: 1.2rem;
+  margin-top: 0.3rem;
+  padding: 0.2rem;
+  font-size: 1.6rem;
   color: var(--very-smooth);
+  cursor: pointer;
 }
 .logout-button i:hover {
-  transform: scale(1.2);
+  transform: scale(1.4);
 }

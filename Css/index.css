@@ -94,7 +94,13 @@ nav ul li a {
   color: black;
   background-color: var(--smooth);
 }
-
+/* Image Slider  */
+/* .slide{
+  transform: translate(-50% ,-50%);
+  width: 1000px;
+  height: 600px;
+  box-shadow: 0 30px 50px var(--very-smooth);
+} */
 section {
   scroll-margin-top: 8rem;
   margin-bottom: 2rem;
